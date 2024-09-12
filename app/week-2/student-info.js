@@ -1,7 +1,11 @@
+import Link from "next/link";
 export default function StudentInfo() {
-    return (
-      <main>
-        <h1>Shopping List</h1>
-      </main>
-    );
-  }
+  return (
+    <header>
+      <p>Prince Martinez</p>
+      <Link href="https://github.com/Haztky?tab=repositories" target="_blank">
+        GitHub repository
+      </Link>
+    </header>
+  );
+}
