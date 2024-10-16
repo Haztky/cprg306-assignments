@@ -16,6 +16,9 @@ export default function Page() {
         <li className="mb-2">
           <Link href="/week-4" className="text-white font-semibold hover:text-red-500 transition-colors">Week 4</Link>
         </li>
+        <li className="mb-2">
+          <Link href="/week-5" className="text-white font-semibold hover:text-red-500 transition-colors">Week 5</Link>
+        </li>
       </ul>
     </div>
   );
