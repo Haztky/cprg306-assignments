@@ -63,6 +63,14 @@ export default function Page() {
             Week 8
           </Link>
         </li>
+        <li className="mb-2">
+          <Link
+            href="/week-9"
+            className="text-white font-semibold hover:text-red-500 transition-colors"
+          >
+            Week 9
+          </Link>
+        </li>
       </ul>
     </div>
   );
